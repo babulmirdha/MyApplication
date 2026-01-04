@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="first number"
+        android:inputType="numberDecimal"
 
         />
 
@@ -39,14 +40,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="second number"
+        android:inputType="numberDecimal"
 
         />
 
 
     <Button
+        android:id="@+id/additionButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Addition"
+        />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         />
 
 
